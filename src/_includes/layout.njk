@@ -3,13 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ title }}</title>
-  <style>
-    body {
-      font-family: "sans-serif"
-    }
-  </style>
+  <link rel="stylesheet" href="/assets/main.css">
 </head>
 <body>
-  {{ content | safe }}
+  <div style="margin: auto; width: 50%">{{ content | safe }}</div>
 </body>
 </html>
